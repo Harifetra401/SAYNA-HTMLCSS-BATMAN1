@@ -1,0 +1,107 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: black;
+}
+ins{color: white;}
+.intro{
+    background-image: url("Assets/Illustrations/Bathome1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+}
+.nav{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.homeLog{
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.homtitle{
+    font-size: 10;
+    color: white;
+    align-items: end;
+    margin-right: 150px;
+}
+.presentation{
+    position: absolute;
+    margin-top: 350px;
+    color: white;
+    width: 100%;
+}
+.presentation p{
+    font-size: 25px;
+}
+.presentation .btn{
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+    justify-content: space-between;
+}
+.socialNetWork{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 350px;
+    z-index: 100;
+    margin-left: 90%;
+    margin-top: 50vh;
+}
+.button {
+    margin-top: 10px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.301) , rgba(255, 0, 0, 0.219));    
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    width: 150px;
+    height: 20px;
+}
+
+.batman{
+    margin-top: -40px;
+    color: white;
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.301) , rgba(0, 0, 0, 0));    
+    
+}
+.txt{
+    margin-left: 200px;
+    margin-right: 320px;
+}
+.txt .log{
+z-index: 100;
+position: absolute;
+width: 150px;
+margin-left: 50px;
+
+}
+
+.txt p{
+    font-size: 24px;
+    text-align: justify;
+    
+}
+.btmpic{
+    z-index: 100;
+    position: absolute;
+    right: 0;
+    margin-top: -180px;
+}
+.perso{
+    margin-top: 100px;
+    display: flex;justify-content: space-around;
+    margin-left: 160px;
+    margin-right: 160px;
+}
